@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="gallery-title">Photo Gallery</h1>
+<div class="gallery-container">
+  <div class="gallery">
+    <img src="bg1.jpg" alt="Image 1" onclick="openModal(this)">
+    <img src="bg2.jpg" alt="Image 2" onclick="openModal(this)">
+    <img src="bg3.jpg" alt="Image 3" onclick="openModal(this)">
+    <img src="bg4.jpg" alt="Image 4" onclick="openModal(this)">
+    <img src="bg5.jpg" alt="Image 5" onclick="openModal(this)">
+    <img src="bg6.jpg" alt="Image 6" onclick="openModal(this)">
+    <img src="bg7.jpg" alt="Image 7" onclick="openModal(this)">
+    <img src="bg8.jpg" alt="Image 8" onclick="openModal(this)">
+    <img src="bg9.jpg" alt="Image 9" onclick="openModal(this)">
+    <img src="bg10.jpg" alt="Image 10" onclick="openModal(this)">
+    <img src="bg11.jpg" alt="Image 11" onclick="openModal(this)">
+  </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
